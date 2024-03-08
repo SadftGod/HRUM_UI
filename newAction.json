@@ -405,7 +405,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-03-01T09:52:12.331Z",
-        "updatedAt": "2024-03-01T10:25:27.099Z",
+        "updatedAt": "2024-03-08T10:06:48.281Z",
         "deleted": false,
         "policies": [
             {
@@ -504,7 +504,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-03-01T10:11:55.090Z",
-        "updatedAt": "2024-03-01T10:29:39.115Z",
+        "updatedAt": "2024-03-08T09:37:44.913Z",
         "deleted": false,
         "policies": [
             {
@@ -620,13 +620,13 @@
                 "JSON.stringify(taxInp.value)",
                 "JSON.stringify(regInp.text)",
                 "JSON.stringify(curInp.value)",
-                "JSON.stringify(companiesTable.selectedRow._id),2024-03-01T10:31:00.491Z,2024-03-01T10:48:55.182Z,read:actions,manage:actions,execute:actions,65c5fdc006602e1100000081,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,64fad80d049bf100119b7ba4,64fad80d049bf100119b7ba4,nodered-0023-ubos-8mkmc-nodered-0023,65d85a71b8bdbd120000003c,nodered-0023,api,Org,API,read:service,manage:service,nodered-0023,latest,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,nodered-0023-ubos-8mkmc-nodered-0023,65c5fdc006602e1100000083,nodeRedUrl,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,ready,Companies,PUT,content-type,application/json,{\n\t\"_id\":{{JSON.stringify(companiesTable.selectedRow._id),2024-03-01T10:31:00.491Z,2024-03-01T10:48:58.133Z,read:actions,manage:actions,execute:actions,65c5fdc006602e1100000081,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,64fad80d049bf100119b7ba4,64fad80d049bf100119b7ba4,nodered-0023-ubos-8mkmc-nodered-0023,65d85a71b8bdbd120000003c,nodered-0023,api,Org,API,read:service,manage:service,nodered-0023,latest,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,nodered-0023-ubos-8mkmc-nodered-0023,65c5fdc006602e1100000083,nodeRedUrl,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,ready,Companies,PUT,content-type,application/json,{\n\t\"_id\":{{JSON.stringify(companiesTable.selectedRow._id)"
+                "JSON.stringify(companiesTable.selectedRow._id),2024-03-01T10:31:00.491Z,2024-03-01T10:48:58.133Z,read:actions,manage:actions,execute:actions,65c5fdc006602e1100000081,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,64fad80d049bf100119b7ba4,64fad80d049bf100119b7ba4,nodered-0023-ubos-8mkmc-nodered-0023,65d85a71b8bdbd120000003c,nodered-0023,api,Org,API,read:service,manage:service,nodered-0023,latest,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,nodered-0023-ubos-8mkmc-nodered-0023,65c5fdc006602e1100000083,nodeRedUrl,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,ready,Companies,PUT,content-type,application/json,{\n\t\"_id\":{{JSON.stringify(companiesTable.selectedRow._id),2024-03-01T10:31:00.491Z,2024-03-01T10:49:10.567Z,read:actions,manage:actions,execute:actions,65c5fdc006602e1100000081,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,64fad80d049bf100119b7ba4,64fad80d049bf100119b7ba4,nodered-0023-ubos-8mkmc-nodered-0023,65d85a71b8bdbd120000003c,nodered-0023,api,Org,API,read:service,manage:service,nodered-0023,latest,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,nodered-0023-ubos-8mkmc-nodered-0023,65c5fdc006602e1100000083,nodeRedUrl,https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech,ready,Companies,PUT,content-type,application/json,{\n\t\"_id\":{{JSON.stringify(companiesTable.selectedRow._id)"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-03-01T10:31:00.491Z",
-        "updatedAt": "2024-03-01T10:49:10.567Z",
+        "updatedAt": "2024-03-08T10:34:38.170Z",
         "deleted": false,
         "policies": [
             {
@@ -737,7 +737,646 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-03-01T10:55:01.483Z",
-        "updatedAt": "2024-03-01T10:56:13.124Z",
+        "updatedAt": "2024-03-08T10:20:15.452Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65eada311cd34c787f890027",
+        "applicationId": "uieditor-7285",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "get_comp_for_jobs",
+            "datasource": {
+                "datasourceConfiguration": {
+                    "orgId": "65c5fdc006602e1100000081",
+                    "url": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "product_price": null,
+                    "cpu": null,
+                    "ram": null,
+                    "subscription_plan": "64fad80d049bf100119b7ba4",
+                    "plan_id": "64fad80d049bf100119b7ba4",
+                    "subscription_id": null,
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023"
+                },
+                "id": "65d85a71b8bdbd120000003c",
+                "invalids": [],
+                "isValid": true,
+                "name": "nodered-0023",
+                "new": false,
+                "type": "api",
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": [
+                    "read:service",
+                    "manage:service"
+                ],
+                "settings_data": {
+                    "gitName": "",
+                    "projectName": "nodered-0023",
+                    "systemType": "latest",
+                    "gitUrl": "",
+                    "gitPassword": "",
+                    "urlNodeRed": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023",
+                    "applicationId": "65c5fdc006602e1100000083",
+                    "env": [
+                        {
+                            "name": "nodeRedUrl",
+                            "value": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech"
+                        }
+                    ],
+                    "status": "ready",
+                    "favicon": "",
+                    "title": ""
+                }
+            },
+            "executeOnLoad": false,
+            "pageId": "Jobs",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/get_comp_jobs"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2024-03-08T09:28:17.078Z",
+        "updatedAt": "2024-03-08T10:01:08.120Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65eadead1cd34c787f890028",
+        "applicationId": "uieditor-7285",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "create_jobs",
+            "datasource": {
+                "datasourceConfiguration": {
+                    "orgId": "65c5fdc006602e1100000081",
+                    "url": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "product_price": null,
+                    "cpu": null,
+                    "ram": null,
+                    "subscription_plan": "64fad80d049bf100119b7ba4",
+                    "plan_id": "64fad80d049bf100119b7ba4",
+                    "subscription_id": null,
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023"
+                },
+                "id": "65d85a71b8bdbd120000003c",
+                "invalids": [],
+                "isValid": true,
+                "name": "nodered-0023",
+                "new": false,
+                "type": "api",
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": [
+                    "read:service",
+                    "manage:service"
+                ],
+                "settings_data": {
+                    "gitName": "",
+                    "projectName": "nodered-0023",
+                    "systemType": "latest",
+                    "gitUrl": "",
+                    "gitPassword": "",
+                    "urlNodeRed": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023",
+                    "applicationId": "65c5fdc006602e1100000083",
+                    "env": [
+                        {
+                            "name": "nodeRedUrl",
+                            "value": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech"
+                        }
+                    ],
+                    "status": "ready",
+                    "favicon": "",
+                    "title": ""
+                }
+            },
+            "executeOnLoad": false,
+            "pageId": "Jobs",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "POST",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "body": "{\n\t\"title\":{{JSON.stringify(jobTitle.text)}},\n\t\"department\":{{JSON.stringify(department.value)}},\n\t\"type\":{{JSON.stringify(Type.value)}},\n\t\"skills\":{{JSON.stringify(skills.text)}},\n\t\"expirience\":{{JSON.stringify(expirience.value)}},\n\t\"min_salary\":{{JSON.stringify(min.value)}},\n\t\"max_salary\":{{JSON.stringify(max.value)}},\n\t\"currency\":{{JSON.stringify(Currency.value)}},\n\t\"company_name\":{{JSON.stringify(company.label)}},\n\t\"company_id\":{{JSON.stringify(company.value)}},\n\t\"descripcion\":{{JSON.stringify(descripcion.text)}}\n}",
+                "path": "/create_jobs"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "JSON.stringify(jobTitle.text)",
+                "JSON.stringify(department.value)",
+                "JSON.stringify(Type.value)",
+                "JSON.stringify(skills.text)",
+                "JSON.stringify(expirience.value)",
+                "JSON.stringify(min.value)",
+                "JSON.stringify(max.value)",
+                "JSON.stringify(Currency.value)",
+                "JSON.stringify(company.label)",
+                "JSON.stringify(company.value)",
+                "JSON.stringify(descripcion.text)"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2024-03-08T09:47:25.527Z",
+        "updatedAt": "2024-03-08T10:39:08.822Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65eae1be1cd34c787f890029",
+        "applicationId": "uieditor-7285",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "get_jobs",
+            "datasource": {
+                "datasourceConfiguration": {
+                    "orgId": "65c5fdc006602e1100000081",
+                    "url": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "product_price": null,
+                    "cpu": null,
+                    "ram": null,
+                    "subscription_plan": "64fad80d049bf100119b7ba4",
+                    "plan_id": "64fad80d049bf100119b7ba4",
+                    "subscription_id": null,
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023"
+                },
+                "id": "65d85a71b8bdbd120000003c",
+                "invalids": [],
+                "isValid": true,
+                "name": "nodered-0023",
+                "new": false,
+                "type": "api",
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": [
+                    "read:service",
+                    "manage:service"
+                ],
+                "settings_data": {
+                    "gitName": "",
+                    "projectName": "nodered-0023",
+                    "systemType": "latest",
+                    "gitUrl": "",
+                    "gitPassword": "",
+                    "urlNodeRed": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023",
+                    "applicationId": "65c5fdc006602e1100000083",
+                    "env": [
+                        {
+                            "name": "nodeRedUrl",
+                            "value": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech"
+                        }
+                    ],
+                    "status": "ready",
+                    "favicon": "",
+                    "title": ""
+                }
+            },
+            "executeOnLoad": true,
+            "pageId": "Jobs",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/get_jobs"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2024-03-08T10:00:30.802Z",
+        "updatedAt": "2024-03-08T10:14:38.986Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65eae6471cd34c787f89002a",
+        "applicationId": "uieditor-7285",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "delete_job",
+            "datasource": {
+                "datasourceConfiguration": {
+                    "orgId": "65c5fdc006602e1100000081",
+                    "url": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "product_price": null,
+                    "cpu": null,
+                    "ram": null,
+                    "subscription_plan": "64fad80d049bf100119b7ba4",
+                    "plan_id": "64fad80d049bf100119b7ba4",
+                    "subscription_id": null,
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023"
+                },
+                "id": "65d85a71b8bdbd120000003c",
+                "invalids": [],
+                "isValid": true,
+                "name": "nodered-0023",
+                "new": false,
+                "type": "api",
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": [
+                    "read:service",
+                    "manage:service"
+                ],
+                "settings_data": {
+                    "gitName": "",
+                    "projectName": "nodered-0023",
+                    "systemType": "latest",
+                    "gitUrl": "",
+                    "gitPassword": "",
+                    "urlNodeRed": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023",
+                    "applicationId": "65c5fdc006602e1100000083",
+                    "env": [
+                        {
+                            "name": "nodeRedUrl",
+                            "value": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech"
+                        }
+                    ],
+                    "status": "ready",
+                    "favicon": "",
+                    "title": ""
+                }
+            },
+            "executeOnLoad": false,
+            "pageId": "Jobs",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "PUT",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "{\n\t\"_id\":{{JSON.stringify(JobsTable.selectedRow._id)}},\n\t\"deleted\":true\n}",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/delete_jobs"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "JSON.stringify(j.selectedRow._id)",
+                "JSON.stringify(JobsTable.selectedRow._id)"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2024-03-08T10:19:51.074Z",
+        "updatedAt": "2024-03-08T10:20:43.522Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "name": "myFun1",
+        "pageId": "Jobs",
+        "executeOnLoad": false,
+        "actionConfiguration": {
+            "body": "() => {\n\t\t//write code here\n\t}",
+            "isAsync": false,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "clientSideExecution": true,
+        "_id": "65eae86b1cd34c787f89002c",
+        "id": "65eae86b1cd34c787f89002c",
+        "collectionId": "65eae86b1cd34c787f89002b",
+        "confirmBeforeExecute": false,
+        "applicationId": "uieditor-7285",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JSObject1.myFun1",
+        "isValid": true,
+        "jsonPathKeys": [
+            "() => {\n\t\t//write code here\n\t}"
+        ],
+        "pluginType": "JS"
+    },
+    {
+        "name": "myFun2",
+        "pageId": "Jobs",
+        "executeOnLoad": false,
+        "actionConfiguration": {
+            "body": "async () => {\n\t\t//use async-await or promises\n\t}",
+            "isAsync": true,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "clientSideExecution": true,
+        "_id": "65eae86b1cd34c787f89002d",
+        "id": "65eae86b1cd34c787f89002d",
+        "collectionId": "65eae86b1cd34c787f89002b",
+        "confirmBeforeExecute": false,
+        "applicationId": "uieditor-7285",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JSObject1.myFun2",
+        "isValid": true,
+        "jsonPathKeys": [
+            "async () => {\n\t\t//use async-await or promises\n\t}"
+        ],
+        "pluginType": "JS"
+    },
+    {
+        "_id": "65eae9671cd34c787f89002e",
+        "applicationId": "uieditor-7285",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "change_jobs",
+            "datasource": {
+                "datasourceConfiguration": {
+                    "orgId": "65c5fdc006602e1100000081",
+                    "url": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "product_price": null,
+                    "cpu": null,
+                    "ram": null,
+                    "subscription_plan": "64fad80d049bf100119b7ba4",
+                    "plan_id": "64fad80d049bf100119b7ba4",
+                    "subscription_id": null,
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023"
+                },
+                "id": "65d85a71b8bdbd120000003c",
+                "invalids": [],
+                "isValid": true,
+                "name": "nodered-0023",
+                "new": false,
+                "type": "api",
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": [
+                    "read:service",
+                    "manage:service"
+                ],
+                "settings_data": {
+                    "gitName": "",
+                    "projectName": "nodered-0023",
+                    "systemType": "latest",
+                    "gitUrl": "",
+                    "gitPassword": "",
+                    "urlNodeRed": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech",
+                    "serviceId": "nodered-0023-ubos-8mkmc-nodered-0023",
+                    "applicationId": "65c5fdc006602e1100000083",
+                    "env": [
+                        {
+                            "name": "nodeRedUrl",
+                            "value": "https://nodered-0023-65c5fdc006602e1100000081.platform.ubos.tech"
+                        }
+                    ],
+                    "status": "ready",
+                    "favicon": "",
+                    "title": ""
+                }
+            },
+            "executeOnLoad": false,
+            "pageId": "Jobs",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "PUT",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "{\n\t\"_id\":{{JSON.stringify(JobsTable.selectedRow._id)}},\n\t\"title\":{{JSON.stringify(jobTitle.text)}},\n\t\"department\":{{JSON.stringify(department.value)}},\n\t\"type\":{{JSON.stringify(Type.value)}},\n\t\"skills\":{{JSON.stringify(skills.text)}},\n\t\"expirience\":{{JSON.stringify(expirience.value)}},\n\t\"min_salary\":{{JSON.stringify(min.value)}},\n\t\"max_salary\":{{JSON.stringify(max.value)}},\n\t\"currency\":{{JSON.stringify(Currency.value)}},\n\t\"company_name\":{{JSON.stringify(company.label)}},\n\t\"company_id\":{{JSON.stringify(company.value)}},\n\t\"descripcion\":{{JSON.stringify(descripcion.text)}}\n}",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/change_jobs"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "JSON.stringify(JobsTable.selectedRow._id)",
+                "JSON.stringify(nameInp.text)",
+                "JSON.stringify(streetInp.text)",
+                "JSON.stringify(cityInp.text)",
+                "JSON.stringify(countyInp.text)",
+                "JSON.stringify(phoneInp.value)",
+                "JSON.stringify(emailInp.text)",
+                "JSON.stringify(websiteInp.text)",
+                "JSON.stringify(taxInp.value)",
+                "JSON.stringify(regInp.text)",
+                "JSON.stringify(curInp.value)",
+                "JSON.stringify(jobTitle.text)",
+                "JSON.stringify(department.value)",
+                "JSON.stringify(Type.value)",
+                "JSON.stringify(skills.text)",
+                "JSON.stringify(expirience.value)",
+                "JSON.stringify(min.value)",
+                "JSON.stringify(max.value)",
+                "JSON.stringify(Currency.value)",
+                "JSON.stringify(company.label)",
+                "JSON.stringify(company.value)",
+                "JSON.stringify(descripcion.text)"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2024-03-08T10:33:11.759Z",
+        "updatedAt": "2024-03-08T10:35:13.721Z",
         "deleted": false,
         "policies": [
             {

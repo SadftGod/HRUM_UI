@@ -1,1 +1,47 @@
-[]
+[
+    {
+        "name": "JSObject1",
+        "pageId": "Jobs",
+        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+        "variables": [
+            {
+                "name": "myVar1",
+                "value": []
+            },
+            {
+                "name": "myVar2",
+                "value": {}
+            }
+        ],
+        "actions": [
+            {
+                "name": "myFun1",
+                "pageId": "Jobs",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "() => {\n\t\t//write code here\n\t}",
+                    "isAsync": false,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                },
+                "clientSideExecution": true
+            },
+            {
+                "name": "myFun2",
+                "pageId": "Jobs",
+                "executeOnLoad": false,
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\t//use async-await or promises\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 0,
+                    "jsArguments": []
+                },
+                "clientSideExecution": true
+            }
+        ],
+        "applicationId": "uieditor-7285",
+        "pluginType": "JS",
+        "_id": "65eae86b1cd34c787f89002b",
+        "id": "65eae86b1cd34c787f89002b"
+    }
+]
